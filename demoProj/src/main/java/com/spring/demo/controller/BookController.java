@@ -53,7 +53,7 @@ public class BookController {
 	}
 	
 	@RequestMapping("/searchForm")
-	public String searchForm(Model model) {
+	public String searchForm(Model mdl) {
 		return "searchForm";
 	}
 	
