@@ -38,7 +38,7 @@ public class BookController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
-		
+		//test git ignore
 		return "home";
 	}
 	
